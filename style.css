@@ -158,6 +158,9 @@ section.title {
     font-size: 4.7rem;
     line-height: 6rem;
     letter-spacing: 7px;
+    background: linear-gradient(90deg, #00dbde, #fc00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     color: #fff;
     margin-bottom: 1.4rem;
 }
@@ -167,7 +170,9 @@ section.title {
     font-size: 1.5rem;
     font-family: var(--font-family);
     line-height: 2.1rem;
-    color: rgba(0,212,255,1);
+    background: linear-gradient(rgba(0,212,255,1), rgba(252,74,74,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-bottom: 1.4rem;
     text-transform: uppercase;
 }
@@ -292,9 +297,9 @@ header, .line {
     margin-bottom: 1.5rem;
 }
 
-.about-section {
+/* .about-section {
     margin-top: 50px !important;
-}
+} */
 
 .about-me-text {
     font-size: 17px;
